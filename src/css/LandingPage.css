@@ -1,0 +1,53 @@
+.sliced-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+  background-image: url("src/assets/Corinna-Home-Page.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.lake-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 0% 0, 100% 100%, 0 100%);
+  background-image: url("src/assets/Corinna-Lake-Pic.jpeg");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  opacity: 75%;
+
+}
+
+.lake-image-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+  background-image: url("src/assets/Corinna-Lake-Pic.jpeg");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  opacity: 75%;
+
+}
+
+.background-primary {
+  background-color: #bed8d4;
+}
+.background-tertiary {
+  background-color: #f7f9f9;
+}
+
+.text-main {
+  font-weight: bold;
+  color: #f7f9f9;
+}
